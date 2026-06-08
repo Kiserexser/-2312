@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "speedbase",
+  "version": "${version}",
+  "name": "Speed Base",
+  "description": "Base mod without Fabric API",
+  "authors": ["SwillWay"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.example.speed.SpeedBase"]
+  },
+  "mixins": ["speedbase.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}
